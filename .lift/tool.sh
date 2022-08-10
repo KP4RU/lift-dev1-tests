@@ -12,6 +12,7 @@ function applicable() {
 }
 
 function run() {
+    sleep 5m
     echo "[{ \"type\": \"Hello Amy\", \
             \"message\": \"Lift is analyzing commit $commit\", \
             \"file\": \"file.txt\", \
